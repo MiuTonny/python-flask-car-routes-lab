@@ -153,3 +153,8 @@ Once all tests are passing and code is pushed to the `main` branch:
 - Application passes all test suites
 - `/` route is created and returns correctly
 - `/<model>` route is created and returns correctly
+
+HOW TO RUN: 
+export FLASK_APP=server/app.py
+export FLASK_ENV=development
+flask run
